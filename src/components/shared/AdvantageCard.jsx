@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AdvantageCard({ text, src }) {
   return (
-    <div className="bg-gradient-to-bl from-[#00E4F0] from-5% to-transparent to-95%
+    <div className="bg-linear-to-bl from-[#00E4F0] from-5% to-transparent to-95%
         border border-[#00E4F0] rounded-lg px-6 py-4
         shadow-[0_4px_4px_rgba(0,0,0,0.25)]"
     >

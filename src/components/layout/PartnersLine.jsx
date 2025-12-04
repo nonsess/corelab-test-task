@@ -6,7 +6,7 @@ export default function PartnersLine() {
         <div className="flex flex-nowrap items-center justify-between gap-4 sm:gap-6 lg:gap-8 
             overflow-x-auto scrollbar-hide">
                 {PARTNERS.map(({ alt, logoSrc }) => (
-                    <div key={alt} className="flex-shrink-0">
+                    <div key={alt} className="shrink-0">
                         <div className="relative h-10 w-20 sm:h -12 sm:w-24 md:h-14 md:w-28 lg:h-16 lg:w-32">
                             <Image
                                 alt={alt}

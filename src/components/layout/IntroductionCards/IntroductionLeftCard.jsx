@@ -3,7 +3,7 @@ import Button from "../../shared/Button"
 export default function IntroductionLeftCard() {
     return (
         <div
-            className="lg:col-span-2 bg-gradient-to-bl from-[#FF4C00] via-[#FF4C00]/50 via-50% to-transparent
+            className="lg:col-span-2 bg-linear-to-bl from-[#FF4C00] via-[#FF4C00]/50 via-50% to-transparent
             border border-[#FF4C00] shadow-[0_4px_4px_rgba(0,0,0,0.25)]
             rounded-lg p-5 lg:p-6 flex flex-col"
         >
@@ -20,7 +20,7 @@ export default function IntroductionLeftCard() {
         
             <Button text="Попробовать" />
             
-            <ul className="list-disc pl-5 mb-4 space-y-1.5 flex-grow">
+            <ul className="list-disc pl-5 mb-4 space-y-1.5 grow">
                 <li className="text-xs sm:text-sm lg:text-base leading-tight">Мультироутер с технологией суммирования нескольких каналов связи в один</li>
                 <li className="text-xs sm:text-sm lg:text-base leading-tight">Высокая скорость и отказоустойчивость интернет-соединения</li>
                 <li className="text-xs sm:text-sm lg:text-base leading-tight">Единый договор на ПО, оборудование и связь</li>
