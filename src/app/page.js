@@ -1,6 +1,7 @@
 import Container from "@/components/layout/Container";
 import HeroSection from "@/components/layout/sections/HeroSection";
 import PartnersSection from "@/components/layout/sections/PartnersSection";
+import TechnologyExplanationSection from "@/components/layout/sections/TechnologyExplanationSection";
 import TechnologySection from "@/components/layout/sections/TechnologySection";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <PartnersSection />
       <TechnologySection />
+      <TechnologyExplanationSection />
     </Container>
   );
 }
