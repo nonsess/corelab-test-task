@@ -6,7 +6,7 @@ export default function AdvantageCard({ text, src }) {
         border border-[#00E4F0] rounded-lg px-6 py-4
         shadow-[0_4px_4px_rgba(0,0,0,0.25)]"
     >
-        <div className="mb-4 relative w-12 h-12">
+        <div className="mb-4 relative z-0 w-12 h-12">
             <Image
               src={src}
               fill
