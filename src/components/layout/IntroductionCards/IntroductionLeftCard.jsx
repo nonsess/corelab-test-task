@@ -1,12 +1,9 @@
+import OrangeCard from "@/components/shared/OrangeCard"
 import Button from "../../shared/Button"
 
 export default function IntroductionLeftCard() {
     return (
-        <div
-            className="lg:col-span-2 bg-linear-to-bl from-[#FF4C00] via-[#FF4C00]/50 via-50% to-transparent
-            border border-[#FF4C00] shadow-[0_4px_4px_rgba(0,0,0,0.25)]
-            rounded-lg p-5 lg:p-6 flex flex-col"
-        >
+        <OrangeCard className="lg:col-span-2">
             <div className="uppercase">
                 <h1 className="text-5xl sm:text-3xl lg:text-5xl pb-4">
                     Беспроводной<br />
@@ -31,6 +28,6 @@ export default function IntroductionLeftCard() {
             <p className="text-[10px] sm:text-[11px]">
                 * Без учета стоимости оборудования, возможен выкуп оборудования или аренда, стоимость будет зависеть от модели мультироутера
             </p>
-        </div>
+        </OrangeCard>
     )
 }

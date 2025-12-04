@@ -1,13 +1,15 @@
+import ImageCard from "@/components/shared/ImageCard";
+
 export default function IntroductionRightCard() {
     return (
-        <div 
-            className="lg:col-span-1 flex items-stretch rounded-lg overflow-hidden
-            bg-center bg-no-repeat bg-cover w-full h-auto"
-            style={{
-                backgroundImage: `url(/img/routerCardImg.svg)`
-            }}
-            role="img"
-            aria-label="Роутер mrnet"
+        <ImageCard 
+            className="lg:col-span-1"
+            imgSrc="/img/routerCardImg.svg"
+            alt="Роутер mrnet"
+            height="h-[250px] sm:h-[350px] lg:h-auto"
+            minHeight="min-h-[250px] lg:min-h-0"
+            objectFit="contain"
+            variant="background"
         />
-    )
+    );
 }
