@@ -6,7 +6,7 @@ import Button from "@/components/shared/Button";
 export default function FormSection() {
     return (
         <>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-20">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 my-20">
                 <GradientCard className="lg:col-span-1">
                     <h4 className="uppercase text-black font-medium text-4xl">
                         Хотите узнать больше, рассчитать стоимость или забрать устройство на бесплатный тест?
