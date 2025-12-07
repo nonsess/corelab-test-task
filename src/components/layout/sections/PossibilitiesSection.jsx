@@ -5,7 +5,7 @@ import ImageCard from "@/components/shared/ImageCard";
 export default function PossibilitiesSection() {
     return (
         <>
-            <h1 className="uppercase text-2xl sm:text-3xl lg:text-4xl max-w-4xl pt-10 pb-6 lg:pb-8">
+            <h1 className="uppercase text-2xl lg:text-3xl max-w-4xl pt-10 pb-6 lg:pb-8">
                 Настраивайте сеть и управляйте
                 всеми устройствами через единый личный кабинет
             </h1>

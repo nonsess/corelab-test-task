@@ -48,9 +48,9 @@ export default function ForWhoSection() {
                 <div className="h-full">
                     <GradientCard showBorder={false} className="h-full text-black">
                         <div className="flex flex-col h-full">
-                            <h4 className="text-xl lg:text-5xl font-medium mb-2 uppercase">Попробуйте 14 дней бесплатно</h4>
-                            <p className="text-sm lg:text-base leading-relaxed mt-auto">
-                                Развивайте свою инфру с mrnet. Без лишних затрат и костылей.
+                            <h4 className="text-xl lg:text-4xl font-medium mb-2 uppercase">Попробуйте 14 дней бесплатно</h4>
+                            <p className="text-xl leading-relaxed mt-auto">
+                                Развивайте свою инфру с <b>mrnet</b>. Без лишних затрат и костылей.
                                 Высокоскоростной интернет — удобно, эффективно!
                             </p>
                         </div>
@@ -61,7 +61,7 @@ export default function ForWhoSection() {
                 </div>
             </div>
 
-            <div className="flex justify-center my-6">
+            <div className="flex justify-center mt-6">
                 <Button className="py-4 font-black" isCTA text="Начать!" />
             </div>
         </>

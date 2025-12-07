@@ -7,7 +7,7 @@ export default function PartnersLine() {
             overflow-x-auto scrollbar-hide">
                 {PARTNERS.map(({ alt, logoSrc }) => (
                     <div key={alt} className="shrink-0">
-                        <div className="relative h-10 w-20 sm:h -12 sm:w-24 md:h-14 md:w-28 lg:h-16 lg:w-32">
+                        <div className="relative cursor-pointer h-10 w-20 sm:h -12 sm:w-24 md:h-14 md:w-28 lg:h-16 lg:w-32">
                             <Image
                                 alt={alt}
                                 fill
