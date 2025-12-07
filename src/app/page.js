@@ -1,6 +1,8 @@
 import Container from "@/components/layout/Container";
+import ForWhoSection from "@/components/layout/sections/ForWhoSection";
 import HeroSection from "@/components/layout/sections/HeroSection";
 import PartnersSection from "@/components/layout/sections/PartnersSection";
+import PossibilitiesSection from "@/components/layout/sections/PossibilitiesSection";
 import TechnologyExplanationSection from "@/components/layout/sections/TechnologyExplanationSection";
 import TechnologySection from "@/components/layout/sections/TechnologySection";
 
@@ -11,6 +13,8 @@ export default function Home() {
       <PartnersSection />
       <TechnologySection />
       <TechnologyExplanationSection />
+      <PossibilitiesSection />
+      <ForWhoSection />
     </Container>
   );
 }
