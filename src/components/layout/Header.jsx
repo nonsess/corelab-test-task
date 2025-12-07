@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <header className="sticky z-100 left-0 top-0 text-white py-4 bg-black">
+        <header className="sticky z-100 left-0 top-0 text-white py-4 bg-background">
             <Container className="flex justify-between items-end">
                 <div className="flex items-end">
                     <Image
