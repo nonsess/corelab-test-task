@@ -1,4 +1,5 @@
 import Container from "@/components/layout/Container";
+import FormSection from "@/components/layout/sections/FormSection";
 import ForWhoSection from "@/components/layout/sections/ForWhoSection";
 import GeographySection from "@/components/layout/sections/GeographySection";
 import HeroSection from "@/components/layout/sections/HeroSection";
@@ -19,6 +20,7 @@ export default function Home() {
       <ForWhoSection />
       <ReviewsSection />
       <GeographySection />
+      <FormSection />
     </Container>
   );
 }
