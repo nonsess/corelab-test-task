@@ -2,7 +2,7 @@ import ImageCard from "@/components/shared/ImageCard";
 
 export default function GeographySection() {
     return (
-        <>
+        <div id="geography">
             <h1 className="uppercase text-3xl py-10">
                 Подключаем к стабильному интернету по всей России
             </h1>
@@ -45,6 +45,6 @@ export default function GeographySection() {
                     </span>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

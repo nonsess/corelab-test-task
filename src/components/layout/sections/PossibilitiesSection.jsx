@@ -4,7 +4,7 @@ import ImageCard from "@/components/shared/ImageCard";
 
 export default function PossibilitiesSection() {
     return (
-        <>
+        <div id="platform">
             <h1 className="uppercase text-2xl lg:text-3xl max-w-4xl pt-10 pb-6 lg:pb-8">
                 Настраивайте сеть и управляйте
                 всеми устройствами через единый личный кабинет
@@ -43,6 +43,6 @@ export default function PossibilitiesSection() {
             <div className="flex justify-center mt-6 lg:mt-8">
                 <Button text="Испытать все возможности"/>
             </div>
-        </>
+        </div>
     );
 }

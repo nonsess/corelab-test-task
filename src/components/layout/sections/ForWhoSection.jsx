@@ -5,7 +5,7 @@ import OrangeCard from "@/components/shared/OrangeCard";
 
 export default function ForWhoSection() {
     return (
-        <>
+        <div id="testdrive">
             <h1 className="uppercase text-3xl py-10">
                 Решение, созданное айтишниками <br/>
                 для айтишников
@@ -64,6 +64,6 @@ export default function ForWhoSection() {
             <div className="flex justify-center mt-6">
                 <Button className="py-4 font-black" isCTA text="Начать!" />
             </div>
-        </>
+        </div>
     )
 }

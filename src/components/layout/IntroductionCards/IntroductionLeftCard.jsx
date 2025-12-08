@@ -5,7 +5,7 @@ export default function IntroductionLeftCard() {
     return (
         <OrangeCard className="lg:col-span-2">
             <div className="uppercase">
-                <h1 className="text-5xl sm:text-3xl lg:text-5xl pb-4">
+                <h1 className="text-3xl lg:text-4xl pb-4">
                     Беспроводной<br />
                     интернет для бизнеса
                 </h1>
