@@ -14,8 +14,10 @@ export default function IntroductionLeftCard() {
                     Установка по любому адресу в РФ!
                 </h2>
             </div>
-        
-            <Button text="Попробовать" />
+            
+            <a href="#form">
+                <Button text="Попробовать" />
+            </a>
             
             <ul className="list-disc pl-5 mb-4 space-y-1.5 grow">
                 <li className="text-xs sm:text-sm lg:text-base leading-tight">Мультироутер с технологией суммирования нескольких каналов связи в один</li>

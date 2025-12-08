@@ -62,7 +62,9 @@ export default function ForWhoSection() {
             </div>
 
             <div className="flex justify-center mt-6">
-                <Button className="py-4 font-black" isCTA text="Начать!" />
+                <a href="#form">
+                    <Button className="py-4 font-black" isCTA text="Начать!" />
+                </a>
             </div>
         </div>
     )

@@ -41,7 +41,9 @@ export default function PossibilitiesSection() {
             </div>
             
             <div className="flex justify-center mt-6 lg:mt-8">
-                <Button text="Испытать все возможности"/>
+                <a href="#form">
+                    <Button text="Испытать все возможности"/>
+                </a>
             </div>
         </div>
     );
